@@ -11,7 +11,7 @@
         text-transform: uppercase;
     }
 
-    &__link {
+    &nav__link {
         display: inline-block;
         text-align: right;
         list-style-type: none;
@@ -20,6 +20,7 @@
             display: inline-block;
             a {
                 text-decoration: none;
+                
                 text-transform: uppercase;
             }
         }
@@ -33,6 +34,10 @@
         border-radius: 1.875rem;
         padding-left: 0.5rem;
     }
+}
+.nav__link--item  {
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (min-width: 992px) {
